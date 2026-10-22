@@ -58,7 +58,7 @@ article {
     width: 100%;
 }
 hgroup {
-
+ margin-top: 40px;
 }
 figure {
     float: left;
@@ -71,4 +71,23 @@ figure {
 figcaption{
     font-size: 90%;
     text-align: left;
+}
+/*sidomeny*/
+aside {
+    width: 230px;
+    float: left;
+    padding-left: 20px;
+}
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+a {
+    color:  #de6581;
+    text-decoration: none;
+}
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
 }
