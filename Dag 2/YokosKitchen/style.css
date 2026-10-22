@@ -1,0 +1,23 @@
+header, section, main, 
+footer, nav, aside, article, 
+figure, figcaption {
+    display: block;
+}
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("images/dark-wood.jpg");
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+    margin: 0;
+}
+.wrapper {
+    width: 940px;
+    background-color: #fff;
+    border: 2px solid #000;
+    margin: 20px auto;
+}
+
+
+
