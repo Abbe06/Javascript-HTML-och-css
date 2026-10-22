@@ -18,11 +18,13 @@
 
         <input type="submit" value="Submit">
     </form>
-
+    <br>
+    <hr>
     <!-- Textarea -->
      <label for="">Would you like to give us a comment?</label>
      <textarea name="comments" id="comments" cols="20" rows="4"></textarea>
-
+    <br>
+    <hr>
     <!-- Radoknappar -->
     <div>
         Please select yout favourite genre: <br>
@@ -38,5 +40,49 @@
         <label for="jazz">Jazz</label>
         <input type="radio" name="genre" id="jazz" value="jazz">
     </div>
+    <br>
+    <hr>
+    <!-- Fieldset för sektioner -->
+    <fieldset>
+        <legend>Contact details</legend>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="mobile">Mobile:</label>
+        <input type="tel" name="mobile" id="mobile">
+    </fieldset>
+    <br>
+    <hr>
+
+    <!-- Checkbox -->
+    <div>
+        Please select yout favourite music service(s): <br>
+        <label for="itunes">None</label>
+        <input type="checkbox" name="service" id="itunes" value="itunes" checked>
+        
+        <label for="syntaxfm">Rock</label>
+        <input type="checkbox" name="service" id="syntaxfm" value="syntaxfm">
+
+        <label for="spotify">Pop</label>
+        <input type="checkbox" name="service" id="spotify" value="spotify">
+    </div>
+
+    <!-- Drop-down listor -->
+    <p>What device do you listen to music on?</p>
+    <select name="devices" id="devices">
+        <option value="ipod">iPod</option>
+        <option value="radio">Radion</option>
+        <option value="computer">Computer</option>
+    </select>
+
+    <!-- Datalist -->
+    <input list="browsers" name="browsers">
+    <datalist id="browsers">
+        <option value="Egde"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Safari"></option>
+    </datalist>
+
 </body>
 </html>
