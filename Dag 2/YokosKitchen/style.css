@@ -34,6 +34,7 @@ nav, footer {
     color: #fff;
     background-color: #aeaca8;
     height: 30px;
+    clear: both;
 }
 nav li {
     display: inline;
@@ -45,5 +46,29 @@ nav li a {
 nav li a:hover, nav li a.current {
     color: black;
 }
+main.courses {
+    margin-top: 20px;
+    width: 659px;
+    border-right: 1px solid #eee;
+    float: left;
+}
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+hgroup {
 
-
+}
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eee;
+}
+figcaption{
+    font-size: 90%;
+    text-align: left;
+}
