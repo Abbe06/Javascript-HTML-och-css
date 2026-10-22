@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Inloggningsformulär -->
+    <form action="action_page.cs">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" 
+        aria-label="username" placeholder="Username..." size="15" maxlength="10" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" 
+        aria-label="password" placeholder="Password..." maxlength="20" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Textarea -->
+     <label for="">Would you like to give us a comment?</label>
+     <textarea name="comments" id="comments" cols="20" rows="4"></textarea>
+
+    <!-- Radoknappar -->
+    <div>
+        Please select yout favourite genre: <br>
+        <label for="none">None</label>
+        <input type="radio" name="genre" id="none" value="none" checked>
+        
+        <label for="rock">Rock</label>
+        <input type="radio" name="genre" id="rock" value="rock">
+
+        <label for="pop">Pop</label>
+        <input type="radio" name="genre" id="pop" value="pop">
+
+        <label for="jazz">Jazz</label>
+        <input type="radio" name="genre" id="jazz" value="jazz">
+    </div>
+</body>
+</html>
