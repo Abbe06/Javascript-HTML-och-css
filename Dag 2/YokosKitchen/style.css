@@ -18,6 +18,16 @@ body {
     border: 2px solid #000;
     margin: 20px auto;
 }
-
+/* Main Header */
+header {
+    height: 160px;
+    background-image: url(images/header.jpg);
+}
+h1 {
+    width: 940px;
+    height: 130px;
+    margin: 0;
+    text-indent: -999px;
+}
 
 
