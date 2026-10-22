@@ -29,5 +29,21 @@ h1 {
     margin: 0;
     text-indent: -999px;
 }
+/* Nav och footer */
+nav, footer {
+    color: #fff;
+    background-color: #aeaca8;
+    height: 30px;
+}
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+nav li a {
+    color: white;
+}
+nav li a:hover, nav li a.current {
+    color: black;
+}
 
 
