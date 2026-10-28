@@ -1,0 +1,22 @@
+.reference {
+    position: relative;
+    background: #CC56FF;
+    width: 100px;
+    height: 80px;
+  }
+  
+  .popout-menu {
+    position: absolute;
+    visibility: hidden;
+    left: 100%;
+    background: #FF89CC;
+    color: white;
+    padding: 16px;
+  }
+  
+  .reference:hover > .popout-menu,
+  .reference:focus > .popout-menu,
+  .reference:focus-within > .popout-menu {
+    visibility: visible;
+  }
+  
